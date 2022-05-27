@@ -4,6 +4,7 @@ import sys
 import numpy as np
 
 from PyQt6.QtWidgets import QApplication, QMainWindow
+from PyQt6.QtGui import QMovie
 from PyQt6.QtCore import pyqtSlot, QTimer
 from PyQt6 import uic
 from scorebar import ScoreBar
@@ -32,6 +33,10 @@ class MainWindow(QMainWindow):
         self.scoreBar.show()
         self.horizontalLayout_4.addWidget(self.scoreBar)
         self.scoreBar.update_bar(0)
+
+        self.movie = QMovie('image.imageformat.fullwidth.84826694.gif')
+        self.logoLabel.setMovie(self.movie)
+        self.movie.start()
 
         #self.powerSlider.setMaximum(MAXPOWER)
 
