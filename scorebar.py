@@ -2,7 +2,6 @@
 from PyQt6.QtWidgets import * 
 from PyQt6.QtGui import * 
 from PyQt6.QtCore import * 
-import sys
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 
