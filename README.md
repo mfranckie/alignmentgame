@@ -1,5 +1,8 @@
 # Alignment Game: "Total Alignment"
 A game consisting of a laser alignment challenge, with a GUI for setting up, starting, and displaying the power meter as players try to align an optical setup.
+<p align="center">
+  <img src="gui.png" alt="GUI" height="400"/>
+</p>
 
 Originally developed for the "Nacht der Physik 2022" event at ETH Zürich 17 July 2022, the project includes the GUI and a backend for connecting to the acquisition card and detector.
 
